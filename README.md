@@ -201,7 +201,8 @@ e_{ij}^{(k)}
 =
 \exp\left[
 -rac{(d_{ij}-\mu_k)^2}{\sigma^2}
-ight]
+
+ight]
 \]
 
 where:
@@ -329,22 +330,6 @@ Therefore, the current result should be regarded as a learning baseline rather t
 
 ---
 
-## Future Work
-
-Planned improvements include:
-
-- Replace one-hot encoding with trainable element embeddings
-- Add atomic and structural descriptors
-- Improve periodic neighbor construction
-- Add coordination numbers and bond-angle information
-- Introduce three-body interactions
-- Study graph attention mechanisms
-- Compare different pooling strategies
-- Add learning-rate scheduling and early stopping
-- Evaluate stricter dataset splitting methods
-- Compare with models such as ALIGNN, M3GNet, CHGNet, and equivariant graph networks
-
-Each modification will be tested independently so that its effect on MAE, RMSE, and \(R^2\) can be evaluated clearly.
 
 ---
 
